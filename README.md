@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # dog_cat_prediction
 
 What it does
@@ -47,3 +48,6 @@ Important
 3.Change the image paths in the code to match your photos.
 
 
+=======
+# Dog Cat Prediction
+>>>>>>> 43c8d65 (Add prediction script and README file)
