@@ -1,47 +1,46 @@
-# dog_cat_prediction
+# Dog vs Cat Image Classifier
 
-What it does
+## What it does
+- Takes an image as input  
+- Predicts whether the image is a **cat or a dog**  
+- Displays the **confidence score** of the prediction  
 
-1.Takes a photo as input.
+---
 
-2.Tells if it is a cat or a dog.
+## How to use
 
-3.Shows how sure it is about the result.
+1. Place your image in a folder on your computer  
+2. Run the prediction script and provide the image path  
+3. View the result: **Cat or Dog**, along with confidence score  
 
-How to use
+---
 
-1.Put your photo in a folder on your computer.
+## Requirements
 
-2.Run the prediction program and give it the photo’s location.
+Make sure you have the following installed:
 
-3.See the result: cat or dog, with a confidence score.
+- Python 3  
+- TensorFlow  
+- NumPy  
+- Keras (included with TensorFlow)  
 
-What you need
+Additional dependencies may be listed in `requirements.txt`
 
-1.Python 3
+---
 
-2.TensorFlow
+## Project Structure
 
-3.NumPy
+- `train.py` → Trains the model using cat and dog images  
+- `predict.py` → Predicts the class of new images  
+- `cat_dog_model.h5` → Saved trained model  
+- `README.md` → Project documentation  
 
-4.Keras (comes with TensorFlow)
+---
 
-5.Other packages (check requirements.txt if available)
+## Important Notes
 
-Files in this project
+- The model must be **trained before making predictions**  
+- The dataset is **not included** due to large size  
+- Update image paths in the code to match your system  
 
-1.train.py — trains the model using cat and dog photos.
-
-2.predict.py — predicts if new photos are cat or dog.
-
-3.cat_dog_model.h5 — saved model file.
-
-4.README.md — this file.
-
-Important
-
-1.You must train the model before predicting.
-
-2.The photo dataset is not included (it’s large).
-
-3.Change the image paths in the code to match your photos.
+---
